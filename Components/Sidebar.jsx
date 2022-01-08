@@ -6,7 +6,7 @@ import {
   FiStar,
   FiSettings,
 } from "react-icons/fi";
-import NavLink from "./NavLink";
+import NavLink from "../Components/Navlink";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
