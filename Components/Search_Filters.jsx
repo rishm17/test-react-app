@@ -25,7 +25,6 @@ const SearchFilters = () => {
     
     }
     
-
     return (
        <Flex bg = 'grey.100' justifyContent = "center" flexWrap = 'wrap'>
            {

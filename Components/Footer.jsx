@@ -1,13 +1,26 @@
-import {Box, Flex} from "@chakra-ui/react"
+import {Box, Flex,Text} from "@chakra-ui/react"
+import dynamic_size from "../utils/dynamic_sizing"
+import useWindowDimensions from "../Hooks/UseWindowDimensions"
 
 
-const Footer = () =>(
+const Footer = () =>{
+    const {height, width} = useWindowDimensions()
+    return(
     
-    <Flex bg = "blue.900" maxWidth = "1480px" m = "auto"  alignItems = "center" justifyContent = "center" >
-        <Box fontSize = "lg" textAlign = "center" p = "5" color = "gray.600" borderTop = "1px">
-            2021, Realtor Inc.
+        <Box 
+        p = "50" 
+        color = "gray.600" 
+        borderTop = "5px" 
+        height = "70px"
+        bg= "black">
+           <Flex>
+            <Box>
+                <Text align = "left" fontSize = "15px">Copyright © CZero Ltd. 2021</Text>
+            </Box>
+        </Flex>
         </Box>
-    </Flex>
-)
+    
+    )
+}
 
 export default Footer

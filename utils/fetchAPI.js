@@ -8,7 +8,7 @@ export const baseUrl = 'https://bayut.p.rapidapi.com'
     const {data} = await axios.get((url),{
         headers: {
           'x-rapidapi-host': 'bayut.p.rapidapi.com',
-          'x-rapidapi-key': 'c5c6ae7a38msh92b2d552f476dd5p193272jsnf42eaf896dbe'
+          'x-rapidapi-key': 'c42905f52bmshe8aa4a54a4a9252p1506afjsn4cd0df84af6a'
           }  
       })
       //console.log(data)
